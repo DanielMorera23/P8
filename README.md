@@ -93,7 +93,7 @@ void loop() {
 }
 
 ```
-## Conclusion
+## CONCLUSIONES
 Este programa establece la comunicación con un módulo GPS externo utilizando la biblioteca TinyGPS y un puerto UART adicional denominado SerialGPS, empleando para ello los pines GPIO16 (RX) y GPIO17 (TX) del ESP32.
 
 Durante la fase de configuración en setup(), se inicializan tanto la conexión serie con el ordenador como la comunicación serial con el GPS, lo que permite recibir datos del módulo GPS mientras se supervisa la información en el monitor serie del PC.
